@@ -1,0 +1,9 @@
+####################################################################################################################################
+### This file is just example file. Please modify /home/databackup/db_config/all_db_config.txt.                                     #
+### Function: Define mysqldump parameter. Example:                                                                                  #
+### mysqldump -h127.0.0.1 -uroot -P $PORT --default-character-set=${CARACHTER} --single-transaction -q -R --triggers -B ${DBNAME} \ #
+###  |gzip > ${REGION}_${PRODUCT}_${ZONE}_${IP}_mysql_${PORT}_dump_${PRODUCT_STATUS}_${DBNAME}_${TIME}_full.sql.gz                  #
+### (Filed NULL is reserve filed. Do not delete it unless you modify hw_backup.sh)                                                  #
+#####################################################################################################################################
+#type	region	production	db_type	IP		NULL	character	port 	NULL   	status	group_no	DB_name
+dump    tw	tlbb    	mysql	192.168.1.1	NULL	latin1		3306    NULL	online	113		tlbbdb
