@@ -23,7 +23,7 @@ ACTION=$1
 ### 1, this script name
 SCRIPT_NAME=hw_backup_all.sh
 ### 2, mail list when backup failed
-MAIL_LIST='zhangshan@cyou-inc.com liangxiaoliang@cyou-inc.com jiangyanguo@cyou-inc.com'
+MAIL_LIST='sandyzhang.job@gmail.com'
 ### 3, mysqldump_expire_time e.g 13 means retain 14days.(+mtime ${EXPIRE_TIME}-1)
 EXPIRE_TIME='13'
 ### 4, xtrabackup_expire_time
