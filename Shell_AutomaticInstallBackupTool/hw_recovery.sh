@@ -1,7 +1,5 @@
 #!/bin/bash
 #template
-#history 2012-09-24
-# version 1.0 2013-06-06
 
 source /etc/profile &> /dev/null
 export PATH=$PATH:/usr/local/mysql/bin
