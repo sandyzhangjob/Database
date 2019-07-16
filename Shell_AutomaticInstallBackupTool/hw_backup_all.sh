@@ -1,18 +1,5 @@
 #!/bin/bash
 # all backup scripts
-# character utf8
-# create by zhangwen 2013-03-22
-# modify by zhangshan 2014-01
-# version 1.1 2013-06-06
-# version 1.2 2013-06-06 init_env
-# version 1.4 2013-06-18 init_env
-# version 1.6 2013-06-18 file_name
-# version 1.7 2013-06-18 file_name
-# version 1.8 2013-07-18 file_name
-# version 2.1 2013-01-05 by zhangshan. Rewrite xtrabackup_all and xtrabackup_increment. Support tar full dump file to backup xtrabakcup increment.
-# version 2.2 2014-01-15 by zhangshan. Rewrite mysqldump backup. Simplify all_config.txt.
-# version 2.3 2014-01-24 by zhangshan. Add some variables, truncate some config rows. 
-# version 2.4 2014-02-25 by zhangshan. Fix some bugs and make script more readable.
 
 SSH="ssh -oConnectionAttempts=2 -oConnectTimeout=5 -oStrictHostKeyChecking=no"
 SCP="scp -oConnectionAttempts=2 -oConnectTimeout=5 -oStrictHostKeyChecking=no"
