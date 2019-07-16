@@ -6,4 +6,4 @@
 ### (Filed NULL is reserve filed. Do not delete it unless you modify hw_backup.sh)                                                  #
 #####################################################################################################################################
 #type	region	production	db_type	IP		NULL	character	port 	NULL   	status	group_no	DB_name
-dump    tw	tlbb    	mysql	192.168.1.1	NULL	latin1		3306    NULL	online	113		tlbbdb
+dump    tw	productname    	mysql	192.168.1.1	NULL	latin1		3306    NULL	online	113		    dbname
