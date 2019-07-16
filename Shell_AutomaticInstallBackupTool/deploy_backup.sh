@@ -1,10 +1,5 @@
 #!/bin/bash
 
-####################################
-#   use for vn tlbb gamedb update  #
-#   created by penghy 20121016     #
-###################################
-
 # init variables
 BASE_DIR="/home/databackup"
 serverlist="${BASE_DIR}/ip.txt"
